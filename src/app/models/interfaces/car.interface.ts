@@ -1,0 +1,20 @@
+export interface ICar {
+    year: string,
+    displayName: string,
+    make: string,
+    model: string,
+    submodel: string,
+    body: string,
+    numDoors: string,
+    trim: string,
+    aspiration: string,
+    cylinderTypeName: string,
+    driveType: string,
+    engine: string,
+    engineBlockType: string,
+    engineCC: string,
+    engineCID: string,
+    engineCylinders: string,
+    engineLiterDisplay: string,
+    fuelTypeName: string
+}
